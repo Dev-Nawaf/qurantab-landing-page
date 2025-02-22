@@ -1,0 +1,17 @@
+{
+  "name": "qurantab",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "sass": "^1.84.0",
+    "vite": "^6.1.0"
+  }
+}
