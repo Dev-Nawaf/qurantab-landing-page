@@ -325,9 +325,10 @@ a {
   &__input {
     display: none;
 
+    // ~ means the closest element to input
     &:checked ~ .faq__answer {
       opacity: 1;
-      max-height: 30rem;
+      max-height: 30rem; //'max-' to be responsive
       padding-top: var(--default-padding);
     }
 
@@ -348,6 +349,7 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
     transition: all var(--timing-animation) ease-in-out;
+    // it raises the answer up and deletes its space when it's closed from input.
     max-height: 0.1rem;
     overflow: hidden;
   }
